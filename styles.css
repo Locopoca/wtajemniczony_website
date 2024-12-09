@@ -143,7 +143,7 @@ header {
 .hero-content h2 {
   font-size: 3rem;
   position: relative;
-  z-index: 100;
+  /* z-index: 100; */
   margin-bottom: 20px;
 }
 
@@ -154,7 +154,9 @@ header {
 
 .cta-btn {
   text-decoration: none;
-  position: relative;
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
   color: #0f0f0f;
   font-weight: 400;
   transition: background-color 0.3s ease;
@@ -164,11 +166,31 @@ header {
   background-color: #0f0f0f;
   z-index: 100;
   overflow: hidden;
+  animation: rainbowShadow 12s linear infinite alternate;
+  
 }
 
+@keyframes rainbowShadow {
+  0% {
+    box-shadow: 5px 5px rgba(255, 0, 0, 0.8); /* Red */
+  }
+  25% {
+    box-shadow: 5px 5px rgba(255, 255, 0, 0.8); /* Yellow */
+  }
+  50% {
+    box-shadow: 5px 5px rgba(0, 255, 0, 0.8); /* Green */
+  }
+  75% {
+    box-shadow: 5px 5px rgba(0, 255, 255, 0.8); /* Cyan */
+  }
+  100% {
+    box-shadow: 5px 5px rgba(0, 0, 255, 0.8); /* Blue */
+  }
+}
+
+
 .cta-btn:hover {
-  animation: rainbowText 6s linear infinite;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  animation: rainbowText 12s linear infinite alternate, rainbowShadow 12s linear infinite alternate;
   z-index: 5;
 }
 
