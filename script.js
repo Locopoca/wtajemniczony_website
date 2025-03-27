@@ -30,7 +30,7 @@ function createFallingTweet(embedHtml) {
 
 // Embed HTML for the tweet
 const tweetEmbeds = [
-    `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light">
+    `<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark">
       <p lang="pl" dir="ltr">Władza decentralizowana to nie tylko technologia, to nowa rzeczywistość, w której każdy głos ma znaczenie. <br><br>Kiedy kod staje się prawem, świat zyskuje na przejrzystości, a tajemnice przestają być zarezerwowane dla wybranych.</p>
       &mdash; Wtajemniczony. (@wtajemniczony_) 
       <a href="https://twitter.com/wtajemniczony_/status/1865958388435505349?ref_src=twsrc%5Etfw">December 9, 2024</a>
@@ -40,7 +40,7 @@ const tweetEmbeds = [
       &mdash; Wtajemniczony. (@wtajemniczony_)
       <a href="https://twitter.com/wtajemniczony_/status/1865719947533443245?ref_src=twsrc%5Etfw">December 8, 2024</a>
     </blockquote>`,
-    `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light">
+    `<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark">
       <p lang="pl" dir="ltr">wszystko, co widzisz, to taniec atomów w świetle nieznanych gwiazd. <br><br>nawet najbardziej stabilne rzeczy są tylko chwilowym oddechem w nieskończonym tańcu energii. <br><br>prawda jest jak cień: im bardziej ją gonić, tym bardziej się wymyka.</p>
       &mdash; Wtajemniczony. (@wtajemniczony_)
       <a href="https://twitter.com/wtajemniczony_/status/1865824660639645747?ref_src=twsrc%5Etfw">December 8, 2024</a>
